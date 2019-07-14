@@ -1,0 +1,178 @@
+/* Basic -------------------------------------------------*/
+body {background: #FFF3EB;
+	  color: #555591;
+}
+/* Typographyт -----------------------------------------*/
+h1 {color:#C7FFD5;
+	border-color:#6AF778;
+}
+h2 {color: #531515;
+	border-color: #C18282;
+}
+h4 {color: #C12424;
+}
+h5 {color: #C7FFD5; /*на фоне под лого и рамкой надпись*/
+	background: rgba(255,255,255,.4);
+	display: inline-block;
+	padding: 8px 20px;
+	font-weight: bold;
+}
+h6 {color: black; /*absent*/
+}
+
+/* Links ----------------------------------------*/
+a:hover, a:focus {
+	color: #121212;
+}
+a.button:hover {
+	border-color: #17EC65;
+}
+p a {color: #4BFFC6;
+}
+
+/* Forms -----------------------------------*/
+label {color: #402140;
+}
+input, textarea, select, button {background: #ffffff;
+						color: #0C430C;
+						border: 1px solid #E4B7B7;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus,
+textarea:focus {border-color: #FF66D0;
+}
+input[type="submit"], button, a.button {color: #ffffff;
+						background-color: #00AF00; #FFBDBB
+						background: -webkit-linear-gradient(#00AF00,#DCFFE4);
+						background: -moz-linear-gradient(#00AF00,#DCFFE4);
+						background: -ms-linear-gradient(#00AF00,#DCFFE4);
+						background: -o-linear-gradient(#00AF00,#DCFFE4);
+						background: linear-gradient(#00AF00,#DCFFE4);
+						box-shadow: inset 0px 1px 0px #b2ea73,inset 0 -1px 2px #2e6d06;
+}
+input[type="submit"]:hover, button:hover, a.button:hover {color: #C7FFD5;
+							background-color: #F3B5D9;
+							background: -webkit-linear-gradient(#F3B5D9,#A33F7A);
+							background: -moz-linear-gradient(#F3B5D9,#A33F7A);
+							background: -ms-linear-gradient(#F3B5D9,#A33F7A);
+							background: -o-linear-gradient(#F3B5D9,#A33F7A);
+							background: linear-gradient(#F3B5D9,#A33F7A);
+}
+a.button.orange {background: #A33F7A;
+							background: -webkit-linear-gradient(#A33F7A,#F38FCA);
+							background: -moz-linear-gradient(#A33F7A,#F38FCA)
+							background: -ms-linear-gradient(#A33F7A,#F38FCA)
+							background: -o-linear-gradient(#A33F7A,#F38FCA)
+							background: linear-gradient(#A33F7A,#F38FCA)
+							box-shadow: inset 0px 1px 0px #ffBB6A,inset 0 -1px 2px #A33F03;
+}
+a.button.orange:hover {background: #FAFA7C;
+						background: -webkit-linear-gradient(#FAFA7C,#509A00);
+						background: -moz-linear-gradient(#FAFA7C,#509A00);
+						background: -ms-linear-gradient(#FAFA7C,#509A00);
+						background: -o-linear-gradient(#FAFA7C,#509A00);
+						background: linear-gradient(#FAFA7C,#509A00);
+}
+
+/* Preloader ------------------------------------*/
+.preloader {color: #333333;
+}
+.preloader-spinner {border: 2px solid #C18282;/*ГДЕ ЭТО??????  */
+				border-top: 2px solid #00FF00;
+}
+
+/* Intro ------------------------------------рамка внизу с розой*/
+.intro {color: #ffffff;
+	background: url(../img/background-1.jpg) top center no-repeat;
+}
+.intro h2 {color: #C7FFD5;
+	border-color: #6AF778; /*рамка в шапке ниже*/
+}
+ul.intro-features li {background: rgba(0,0,110,0.2); /*фон 3х полосок в шапке*/
+}
+.intro-image {top: 0;
+	left: -75px; /*вертик горчичн шелк в шапке*/
+}
+p.intro-description {width: 475px;
+}
+.intro h2 {width: 80%;
+	font-size: 21px; /*рамка р-ры над 3я полосками в шапке */
+}
+ul.intro-features img {margin: 0 20px 0 70px;
+}
+.text-column {padding-bottom: 200px;
+}
+.form-column {margin-top: -576px; /*плавающая полоска под шапкой*/
+}
+@media (max-width: 992px) {.text-column {padding-bottom: 133px;
+	}
+}
+
+/* Main Form ------------------------------------------------*/
+.main-form {background: #ffffff;
+			background: -webkit-linear-gradient(#ffffff,#979797);
+			background: -moz-linear-gradient(#ffffff,#979797);
+			background: linear-gradient(#ffffff,#979797);
+			background: -ms-linear-gradient(#ffffff,#979797);
+			background: -o-linear-gradient(#ffffff,#979797);
+			color: #696969;
+}
+.submit-arrow {color: #ffffff;
+	background: url(../img/arrow-orange.png) top right no-repeat;
+}
+.submit-arrow span {color: #F73573; /*цвер среднего слова в плавающ полосе*/
+}
+.disclaimer {color: #6E6E6E; /*фон снизу формы*/
+}
+.main-form h4 {font-size: 22px;
+}
+
+/* Contact Form --------------------------------------------------*/
+.contact-form {border: 1px solid #CC7DCC;
+}
+
+/* Hero ---------------------УБРАТЬ???-----------------------------*/
+.hero h3 {color: #D40000;
+}
+.hero h3 span {color: #ff6600;
+}
+
+
+
+/* Pricing Table -------где это?----УБРАТЬ???-#e3e3e3---#ff6600-------------*/
+.pricing-table {border: 1px solid #E321E3;
+}
+.pricing-table.featured {border-color: #2D42FF;
+}
+.pricing-table .table-title {border-bottom: 1px solid #2D42FF;
+}
+.pricing-table .table-price {border-bottom: 1px solid #2D42FF;
+							color: #F400A1;/*#000000;*/
+}
+.pricing-table ul.table-features li {border-color: #2D42FF;
+}
+.pricing-table ul.table-features li:nth-child(even) {background: #f6f6f6;
+}
+
+/* Testimonial -------------------------------------------------*/
+.testimonial-block {border: 1px solid #C16969; /*рамка над футером*/
+}
+.testimonial-block p.testimonial {color: #652727;
+}
+.testimonial-block p.author span {color: #970909;
+}
+
+/* Bottom CTA -------------------------------------------------*/
+.bottom-cta {background: url(../img/background-1.jpg) center center no-repeat;
+}
+.bottom-cta h2 {color: #C7FFD5;
+}
+.bottom-cta-image {left: 0px;
+				   top: -240px;
+}
+/*УБРАННЫЕ =============== */
+/* Icon Block -------где это?---------УБРАТЬ???---------------------------*/
+.icon-block i {
+	background: #BA55D3;/*#ebe9d9;*/
+	color: #333333;
+}
